@@ -197,7 +197,11 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icon */}
                     {item.icons?.map((icon, iconIndex) => {
-                      return <div className="text-2xl ">{icon}</div>;
+                      return (
+                        <div key={iconIndex} className="text-2xl ">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
