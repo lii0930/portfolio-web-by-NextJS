@@ -176,7 +176,7 @@ const About = () => {
                     index === itemIndex &&
                     "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300"
                   } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-                  onClick={() => setIndex(index)}
+                  onClick={() => setIndex(itemIndex)}
                 >
                   {item.title}
                 </div>
